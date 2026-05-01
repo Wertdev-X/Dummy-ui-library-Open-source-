@@ -4882,7 +4882,7 @@ function Library:Window(p)
 			if not firsttime then
 				firsttime = true
 				Tabs:Notify({
-					Title = 'Sarturn hub ',
+					Title = 'Vense Hub',
 					Desc = 'Press the <font color="#FF77A5" size="14">('..tostring(Keybind):gsub("Enum.KeyCode.", "")..')</font> button to hide and show the UI',
 					Time = 5
 				})				
@@ -4984,7 +4984,7 @@ function Library:Window(p)
 
 		Close_1.MouseButton1Click:Connect(function()
 			Tabs:Dialog({
-				Title = "Do you want to <font color='#FF0000'>close</font> the Sarturn hub?",
+				Title = "Do You Want To <font color='#FF0000'>Close</font> The Vense hub?",
 				Button1 = {
 					Title = 'Confirm',
 					Color = Color3.fromRGB(0, 188, 0),
@@ -4994,7 +4994,7 @@ function Library:Window(p)
 				},
 				Button2 = {
 					Title = 'Cancel',
-					Color = Color3.fromRGB(226, 39, 6),
+					Color = Color3.fromRGB(226, 39, 6), o 
 				}
 			})
 		end)
