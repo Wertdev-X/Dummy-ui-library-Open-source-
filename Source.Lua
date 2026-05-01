@@ -17,8 +17,8 @@ local themes = {
                 ['Toggle Value'] = Color3.fromRGB(120, 90, 220),
             },
             ['False'] = {
-                ['Toggle Background'] = Color3.fromRGB(25, 25, 35),
-                ['Toggle Value'] = Color3.fromRGB(120, 90, 220),
+                ['Toggle Background'] = Color3.fromRGB(35, 25, 70),
+                ['Toggle Value'] = Color3.fromRGB(50, 50, 70),
             }
         },
         ['Label'] = {
@@ -97,7 +97,7 @@ local themes = {
             },
             ['False'] = {
                 ['Toggle Background'] = Color3.fromRGB(35, 15, 15),
-                ['Toggle Value'] = Color3.fromRGB(220, 40, 40),
+                ['Toggle Value'] = Color3.fromRGB(70, 30, 30),
             }
         },
         ['Label'] = { ['Background'] = Color3.fromRGB(25, 12, 12) },
@@ -165,7 +165,7 @@ local themes = {
             },
             ['False'] = {
                 ['Toggle Background'] = Color3.fromRGB(25, 15, 35),
-                ['Toggle Value'] = Color3.fromRGB(255, 80, 200),
+                ['Toggle Value'] = Color3.fromRGB(70, 60, 90),
             }
         },
         ['Label'] = { ['Background'] = Color3.fromRGB(15, 10, 25) },
@@ -233,7 +233,7 @@ EmeraldNight = {
             },
             ['False'] = {
                 ['Toggle Background'] = Color3.fromRGB(18, 30, 25),
-                ['Toggle Value'] = Color3.fromRGB(40, 220, 140),
+                ['Toggle Value'] = Color3.fromRGB(35, 60, 50),
             }
         },
         ['Label'] = { ['Background'] = Color3.fromRGB(15, 25, 20) },
@@ -301,7 +301,7 @@ EmeraldNight = {
 				},
 				['False'] = {
 					['Toggle Background'] = Color3.fromRGB(30, 30, 30),
-					['Toggle Value'] = Color3.fromRGB(70, 130, 180),
+					['Toggle Value'] = Color3.fromRGB(40, 40, 40),
 				}
 			},
 			['Label'] = {
