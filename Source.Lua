@@ -2,7 +2,7 @@ Library = {}
 SaveTheme = {}
 
 local themes = {
-	index = {'Dark','EmeraldNight','CrimsonVoid','Darker'},	
+	index = {'Dark','EmeraldNight','CrimsonVoid','Light','Darker'},	
 	Darker = {
     ['Shadow'] = Color3.fromRGB(10, 10, 15),
     ['Background'] = Color3.fromRGB(15, 15, 22),
@@ -78,6 +78,87 @@ local themes = {
             ['Color Select'] = {
                 ['Background'] = Color3.fromRGB(12, 12, 18),
                 ['UIStroke'] = Color3.fromRGB(180, 180, 200),
+            }
+        }
+    }
+},
+Light = {
+    ['Shadow'] = Color3.fromRGB(0, 0, 0),
+    ['Background'] = Color3.fromRGB(250, 250, 255),      -- Branco suave
+    ['Page'] = Color3.fromRGB(245, 245, 250),            -- Fundo das páginas
+    ['Main'] = Color3.fromRGB(80, 110, 255),             -- Azul principal elegante
+    
+    ['Text & Icon'] = Color3.fromRGB(30, 30, 40),        -- Texto escuro para bom contraste
+    
+    ['Function'] = {
+        ['Toggle'] = {
+            ['Background'] = Color3.fromRGB(235, 235, 240),
+            ['True'] = {
+                ['Toggle Background'] = Color3.fromRGB(80, 110, 255),
+                ['Toggle Value'] = Color3.fromRGB(255, 255, 255),
+            },
+            ['False'] = {
+                ['Toggle Background'] = Color3.fromRGB(200, 200, 210),
+                ['Toggle Value'] = Color3.fromRGB(120, 120, 130),
+            }
+        },
+        ['Label'] = {
+            ['Background'] = Color3.fromRGB(240, 240, 245),
+        },
+        ['Dropdown'] = {
+            ['Background'] = Color3.fromRGB(245, 245, 250),
+            ['Value Background'] = Color3.fromRGB(255, 255, 255),
+            ['Value Stroke'] = Color3.fromRGB(180, 190, 210),
+            ['Dropdown Select'] = {
+                ['Background'] = Color3.fromRGB(250, 250, 255),
+                ['Search'] = Color3.fromRGB(235, 235, 240),
+                ['Item Background'] = Color3.fromRGB(240, 240, 245),
+            }
+        },
+        ['Slider'] = {
+            ['Background'] = Color3.fromRGB(235, 235, 240),
+            ['Value Background'] = Color3.fromRGB(255, 255, 255),
+            ['Value Stroke'] = Color3.fromRGB(180, 190, 210),
+            ['Slider Bar'] = Color3.fromRGB(220, 220, 230),
+            ['Slider Bar Value'] = Color3.fromRGB(80, 110, 255),
+            ['Circle Value'] = Color3.fromRGB(255, 255, 255)
+        },
+        ['Code'] = {
+            ['Background'] = ColorSequence.new{
+                ColorSequenceKeypoint.new(0, Color3.fromRGB(245, 245, 250)),
+                ColorSequenceKeypoint.new(1, Color3.fromRGB(245, 245, 250))
+            },
+            ['Background Code'] = Color3.fromRGB(235, 235, 245),
+            ['Background Code Value'] = Color3.fromRGB(225, 225, 235),
+            ['ScrollingFrame Code'] = Color3.fromRGB(70, 100, 255)
+        },
+        ['Button'] = {
+            ['Background'] = Color3.fromRGB(80, 110, 255),
+            ['Click'] = Color3.fromRGB(255, 255, 255)
+        },
+        ['Textbox'] = {
+            ['Background'] = Color3.fromRGB(255, 255, 255),
+            ['Value Background'] = Color3.fromRGB(250, 250, 255),
+            ['Value Stroke'] = Color3.fromRGB(160, 170, 200),
+        },
+        ['Keybind'] = {
+            ['Background'] = Color3.fromRGB(235, 235, 240),
+            ['Value Background'] = Color3.fromRGB(255, 255, 255),
+            ['Value Stroke'] = Color3.fromRGB(180, 190, 210),
+            ['True'] = {
+                ['Toggle Background'] = Color3.fromRGB(80, 110, 255),
+                ['Toggle Value'] = Color3.fromRGB(255, 255, 255),
+            },
+            ['False'] = {
+                ['Toggle Background'] = Color3.fromRGB(200, 200, 210),
+                ['Toggle Value'] = Color3.fromRGB(120, 120, 130),
+            }
+        },
+        ['Color Picker'] = {
+            ['Background'] = Color3.fromRGB(245, 245, 250),
+            ['Color Select'] = {
+                ['Background'] = Color3.fromRGB(255, 255, 255),
+                ['UIStroke'] = Color3.fromRGB(160, 170, 200),
             }
         }
     }
